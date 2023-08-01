@@ -6,11 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecnoRed</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="hamburger-nav-bar navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="collapse-nav collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./products.html">Productos</a></li>
+                    <li><a href="./services.html">Servicios</a></li>
+                    <li><a href="./about.html">Nosotros</a></li>
+                    <li><a href="./login.html">Iniciar Sesion</a></li>
+                    <li><a href="./register.html">Registrarse</a></li>
+                    <li><a href="">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="desktop-navbar">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="./pages/products.html">Productos</a></li>
@@ -32,26 +55,26 @@
 
         <section class="phones">
             <h2>Oferta en Celulares</h2>
-            <div class="phones-wrapper">
-                <div class="item">
+            <div class="grid-phones-wrapper">
+                <div class="grid-item">
                     <img src="./assets/SAMSUNG Galaxy S23 Lavande 128GB 5G .jpg" alt="">
                     <h3 class="name">SAMSUNG Galaxy S23 Lavande 128Go 5G </h3>
                     <h3 class="price">399,999.00$</h3>
                     <button class="button-phone">Mas info</button>
                 </div>
-                <div class="item">
+                <div class="grid-item">
                     <img src="./assets/Samsung Galaxy A54 5g 256gb.jpg" alt="">
                     <h3 class="name">Samsung Galaxy A54 5g 256gb</h3>
                     <h3 class="price">$226,999.00</h3>
                     <button class="button-phone">Mas info</button>
                 </div>
-                <div class="item">
+                <div class="grid-item">
                     <img src="./assets/motoe32-frente.png" alt="">
                     <h3 class="name">Motorola Moto E32</h3>
                     <h3 class="price">$69,999.00</h3>
                     <button class="button-phone">Mas info</button>
                 </div>
-                <div class="item">
+                <div class="grid-item">
                     <img src="./assets/redmi-black-frente_1.png" alt="">
                     <h3 class="name">Xiaomi Redmi Note 11</h3>
                     <h3 class="price">$163,699.00</h3>
@@ -84,6 +107,9 @@
         <p>Derechos Reservados © 2010 - TecnoRed. Todos los derechos reservados.</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
