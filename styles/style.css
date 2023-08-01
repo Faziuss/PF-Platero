@@ -77,10 +77,10 @@
   gap: 3rem;
 }
 
-.phones h2 {
+.phones h1 {
   margin-top: 2rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .phones .grid-phones-wrapper {
@@ -220,8 +220,8 @@
   margin-bottom: 1rem;
 }
 
-.about-div h3 {
-  font-size: 2rem;
+.about-div h1 {
+  font-size: 3rem;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -234,8 +234,21 @@
   padding-top: 100px ;
 }
 
+.login-div h1{
+  margin-bottom: 2rem;
+}
+
+.login-div{
+  text-align: center;
+}
+
 .register{
   padding-top: 100px ;
+}
+
+.register-div h1{
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 footer p {
