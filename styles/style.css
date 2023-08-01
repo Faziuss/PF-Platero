@@ -236,14 +236,29 @@
 
 .login-div h1{
   margin-bottom: 2rem;
+  text-align: center;
 }
 
-.login-div{
-  text-align: center;
+.login-div .login-form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .register{
   padding-top: 100px ;
+}
+
+.register-div .register-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .register-div h1{
