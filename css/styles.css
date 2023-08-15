@@ -229,17 +229,17 @@
   gap: 1rem;
 }
 
-.register {
+#register main {
   padding-top: 100px;
 }
-.register .register-div {
+#register main .register-div {
   padding: 1rem;
 }
-.register .register-div h1 {
+#register main .register-div h1 {
   text-align: center;
   margin-bottom: 2rem;
 }
-.register .register-div .register-form {
+#register main .register-div .register-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
