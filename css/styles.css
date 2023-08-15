@@ -199,7 +199,13 @@
   text-align: center;
 }
 
+#about {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 #about main {
+  flex-grow: 1;
   padding-top: 100px;
 }
 #about main .about-div {
@@ -211,7 +217,13 @@
   margin-bottom: 1rem;
 }
 
+#login {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 #login main {
+  flex-grow: 1;
   padding-top: 100px;
 }
 #login main .login-div {
@@ -229,7 +241,13 @@
   gap: 1rem;
 }
 
+#register {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 #register main {
+  flex-grow: 1;
   padding-top: 100px;
 }
 #register main .register-div {
