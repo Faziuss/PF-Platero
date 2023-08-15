@@ -1,20 +1,22 @@
-.login {
-    padding-top: $padding-top-100;
+#login {
+    main{
+        padding-top: $padding-top-100;
   
-    .login-div {
-      padding: 1rem;
-  
-      h1 {
-        margin-bottom: 2rem;
-        text-align: center;
-      }
-  
-      .login-form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-      }
+        .login-div {
+          padding: 1rem;
+      
+          h1 {
+            margin-bottom: 2rem;
+            text-align: center;
+          }
+      
+          .login-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+          }
+        }
     }
   }

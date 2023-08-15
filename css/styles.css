@@ -211,17 +211,17 @@
   margin-bottom: 1rem;
 }
 
-.login {
+#login main {
   padding-top: 100px;
 }
-.login .login-div {
+#login main .login-div {
   padding: 1rem;
 }
-.login .login-div h1 {
+#login main .login-div h1 {
   margin-bottom: 2rem;
   text-align: center;
 }
-.login .login-div .login-form {
+#login main .login-div .login-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
