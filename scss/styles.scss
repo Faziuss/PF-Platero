@@ -1,3 +1,6 @@
+@import "./partials/variables";
+@import 'partials/mixins';
+
 @import "./partials/typography";
 @import "./partials/reset";
 @import "./partials/navbar";
@@ -9,8 +12,3 @@
 @import "./partials/login";
 @import "./partials/register";
 @import "./partials/footer";
-@import "./partials/variables";
-
-
-@media screen and (min-width: 1200px) {
-}
