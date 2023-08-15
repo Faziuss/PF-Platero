@@ -29,8 +29,7 @@
           margin-bottom: 2rem;
 
           .boton-service {
-            margin-top: 1rem;
-            padding: 1rem;
+            @include button
           }
           .name-service {
             font-size: 2rem;

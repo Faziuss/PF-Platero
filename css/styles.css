@@ -137,15 +137,15 @@
   font-weight: 600;
 }
 .oferta-service .oferta-service-wrapper .oferta .boton-service {
+  padding: 1rem;
+  margin-bottom: 1rem;
   border-radius: 1rem;
+  background-color: azure;
   transition: 0.2s ease-in-out;
 }
 .oferta-service .oferta-service-wrapper .oferta .boton-service:hover {
   transition: 0.2s ease-in-out;
   background-color: #adfdfd;
-}
-.oferta-service .oferta-service-wrapper .oferta .boton-service {
-  padding: 1rem;
 }
 
 #services {
@@ -180,8 +180,15 @@
   margin-bottom: 2rem;
 }
 #services main .services-section .service-wrapper .service .boton-service {
-  margin-top: 1rem;
   padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  background-color: azure;
+  transition: 0.2s ease-in-out;
+}
+#services main .services-section .service-wrapper .service .boton-service:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #adfdfd;
 }
 #services main .services-section .service-wrapper .service .name-service {
   font-size: 2rem;
