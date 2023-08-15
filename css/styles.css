@@ -214,22 +214,19 @@
 .login {
   padding-top: 100px;
 }
-
-.login-div h1 {
+.login .login-div {
+  padding: 1rem;
+}
+.login .login-div h1 {
   margin-bottom: 2rem;
   text-align: center;
 }
-
-.login-div .login-form {
+.login .login-div .login-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-}
-
-.login-div {
-  padding: 1rem;
 }
 
 .register {

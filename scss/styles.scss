@@ -6,29 +6,10 @@
 @import "./partials/services";
 @import "./partials/container";
 @import "./partials/about";
+@import "./partials/login";
 @import "./partials/variables";
 
 
-.login {
-  padding-top: 100px;
-}
-
-.login-div h1 {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.login-div .login-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.login-div {
-  padding: 1rem;
-}
 
 .register {
   padding-top: 100px;
