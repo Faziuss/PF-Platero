@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-preentrega1-fabrizio-platero-cerdera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faziuss/PreEntrega2-Platero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faziuss/PreEntrega2-Platero/issues"
+  },
+  "homepage": "https://github.com/Faziuss/PreEntrega2-Platero#readme"
+}
