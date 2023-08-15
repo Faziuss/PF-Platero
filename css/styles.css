@@ -118,6 +118,12 @@
   background-color: #adfdfd;
 }
 
+.oferta-service h2 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
 .oferta-service .oferta-service-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -127,7 +133,6 @@
   margin: 0 auto;
   width: fit-content;
 }
-
 .oferta-service .oferta-service-wrapper .oferta {
   display: flex;
   flex-direction: column;
@@ -153,16 +158,8 @@
   transition: 0.2s ease-in-out;
   background-color: #adfdfd;
 }
-
 .oferta-service .oferta-service-wrapper .oferta .boton-service {
   padding: 1rem;
-}
-
-.oferta-service h2 {
-  margin-top: 2rem;
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2rem;
 }
 
 .main-service {
