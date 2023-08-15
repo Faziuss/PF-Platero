@@ -1,4 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&display=swap");
+@media screen and (max-width: 768px) {
+  .desktop-navbar {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desktop-navbar {
+    display: flex;
+  }
+  .hamburger-nav-bar {
+    display: none !important;
+  }
+  .collapse-nav {
+    display: none !important;
+  }
+}
+.desktop-navbar {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  margin-top: 1rem;
+}
+.desktop-navbar ul {
+  background-color: rgba(0, 0, 0, 0.658);
+  border: 2px solid rgb(252, 252, 252);
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+}
+.desktop-navbar ul li {
+  list-style-type: none;
+  padding: 1rem;
+}
+.desktop-navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
 
 * {
   margin: 0px;
@@ -7,48 +44,9 @@
   font-family: "Inter";
 }
 
-@media screen and (max-width: 768px) {
-    .desktop-navbar {
-      display: none;
-    }
-  }
-  
-  @media screen and (min-width: 768px) {
-    .desktop-navbar {
-      display: flex;
-    }
-    .hamburger-nav-bar {
-      display: none !important;
-    }
-    .collapse-nav {
-      display: none !important;
-    }
-  }
-  
-  .desktop-navbar {
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-    margin-top: 1rem;
-  
-    > ul {
-      background-color: rgba(0, 0, 0, 0.658);
-      border: 2px solid rgb(252, 252, 252);
-      width: fit-content;
-      margin: 0 auto;
-      display: flex;
-  
-      > li {
-        list-style-type: none;
-        padding: 1rem;
-  
-        > a {
-          text-decoration: none;
-          color: white;
-        }
-      }
-    }
-  }
+* {
+  font-family: "Inter";
+}
 
 .encabezado {
   position: relative;
@@ -58,7 +56,6 @@
   background-position: center;
   background-size: cover;
 }
-
 .encabezado h1 {
   position: absolute;
   top: 50%;
@@ -76,63 +73,55 @@
   justify-content: center;
   gap: 3rem;
 }
-
 .phones h1 {
   margin-top: 2rem;
   text-align: center;
   font-size: 3rem;
 }
-
 .phones .grid-phones-wrapper {
-    display: grid;
-    max-width: 1500px;
-    width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-bottom: 1rem;
-    grid-gap: 1rem;
-  }
-  
-  .phones .grid-phones-wrapper .grid-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.212) 0px 5px 15px;
-  
-    .name,
-    .price {
-      font-size: 1rem;
-    }
-  
-    .price {
-      font-weight: 600;
-    }
-  }
-
+  display: grid;
+  max-width: 1500px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-bottom: 1rem;
+  grid-gap: 1rem;
+}
+.phones .grid-phones-wrapper .grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.212) 0px 5px 15px;
+}
+.phones .grid-phones-wrapper .grid-item .name,
+.phones .grid-phones-wrapper .grid-item .price {
+  font-size: 1rem;
+}
+.phones .grid-phones-wrapper .grid-item .price {
+  font-weight: 600;
+}
 .phones .grid-phones-wrapper .grid-item img {
   max-width: 300px;
   width: 100%;
 }
-
-.phones .grid-item .button-phone {
+.phones .grid-phones-wrapper .grid-item .button-phone {
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 1rem;
   background-color: azure;
   transition: 0.2s ease-in-out;
-
-  &:hover {
-    transition: 0.2s ease-in-out;
-    background-color: #adfdfd;
-  }
+}
+.phones .grid-phones-wrapper .grid-item .button-phone:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #adfdfd;
 }
 
 .oferta-service .oferta-service-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   text-align: center;
   justify-content: center;
   margin: 0 auto;
@@ -147,26 +136,22 @@
   gap: 1rem;
   border: 2px solid #2580e9;
   padding: 2rem;
-
-  .name-service,
-  .price-service,
-  .price-service2 {
-    font-size: 1.2rem;
-  }
-
-  .name-service {
-    font-weight: 600;
-  }
-
-  .boton-service {
-    border-radius: 1rem;
-    transition: 0.2s ease-in-out;
-
-    &:hover {
-      transition: 0.2s ease-in-out;
-      background-color: #adfdfd;
-    }
-  }
+}
+.oferta-service .oferta-service-wrapper .oferta .name-service,
+.oferta-service .oferta-service-wrapper .oferta .price-service,
+.oferta-service .oferta-service-wrapper .oferta .price-service2 {
+  font-size: 1.2rem;
+}
+.oferta-service .oferta-service-wrapper .oferta .name-service {
+  font-weight: 600;
+}
+.oferta-service .oferta-service-wrapper .oferta .boton-service {
+  border-radius: 1rem;
+  transition: 0.2s ease-in-out;
+}
+.oferta-service .oferta-service-wrapper .oferta .boton-service:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #adfdfd;
 }
 
 .oferta-service .oferta-service-wrapper .oferta .boton-service {
@@ -180,11 +165,11 @@
   margin-bottom: 2rem;
 }
 
-.main-service{
-  padding-top: 100px ;
+.main-service {
+  padding-top: 100px;
 }
 
-.services{
+.services {
   padding: 1rem;
 }
 
@@ -230,24 +215,24 @@
   margin-bottom: 1rem;
 }
 
-.about{
-  padding-top: 100px ;
+.about {
+  padding-top: 100px;
 }
 
-.about-div{
+.about-div {
   padding: 1rem;
 }
 
-.login{
-  padding-top: 100px ;
+.login {
+  padding-top: 100px;
 }
 
-.login-div h1{
+.login-div h1 {
   margin-bottom: 2rem;
   text-align: center;
 }
 
-.login-div .login-form{
+.login-div .login-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -255,12 +240,12 @@
   gap: 1rem;
 }
 
-.login-div{
+.login-div {
   padding: 1rem;
 }
 
-.register{
-  padding-top: 100px ;
+.register {
+  padding-top: 100px;
 }
 
 .register-div .register-form {
@@ -271,12 +256,12 @@
   gap: 1rem;
 }
 
-.register-div h1{
+.register-div h1 {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.register-div{
+.register-div {
   padding: 1rem;
 }
 
@@ -286,5 +271,4 @@ footer p {
   margin-top: 1rem;
 }
 
-@media screen and (min-width: 1200px) {
-}
+/*# sourceMappingURL=styles.css.map */
