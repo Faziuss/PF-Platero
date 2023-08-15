@@ -199,18 +199,16 @@
   text-align: center;
 }
 
-.about-div h1 {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
 .about {
   padding-top: 100px;
 }
-
-.about-div {
+.about .about-div {
   padding: 1rem;
+}
+.about .about-div h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .login {

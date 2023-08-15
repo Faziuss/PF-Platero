@@ -1,26 +1,13 @@
-@import "partials/typography";
-@import "partials/reset";
-@import "partials/navbar";
-@import "partials/phones";
-@import "partials/oferta-service";
-@import "partials/services";
-@import "partials/container";
-@import "partials/variables";
+@import "./partials/typography";
+@import "./partials/reset";
+@import "./partials/navbar";
+@import "./partials/phones";
+@import "./partials/oferta-service";
+@import "./partials/services";
+@import "./partials/container";
+@import "./partials/about";
+@import "./partials/variables";
 
-
-.about-div h1 {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.about {
-  padding-top: 100px;
-}
-
-.about-div {
-  padding: 1rem;
-}
 
 .login {
   padding-top: 100px;
