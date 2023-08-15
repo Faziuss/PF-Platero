@@ -1,6 +1,6 @@
 #register {
     main{
-        padding-top: 100px;
+        padding-top: $padding-main;
 
     .register-div {
         padding: 1rem;
@@ -11,11 +11,7 @@
           }
 
           .register-form {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
+            @include auth_form;
           }
       }
     }
