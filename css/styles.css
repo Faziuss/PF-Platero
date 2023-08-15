@@ -148,39 +148,45 @@
   padding: 1rem;
 }
 
-.main-service {
+#services {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#services main {
+  flex-grow: 1;
   padding-top: 100px;
 }
-.main-service .services-section {
+#services main .services-section {
   padding: 1rem;
 }
-.main-service .services-section h1 {
+#services main .services-section h1 {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1rem;
 }
-.main-service .services-section .service-wrapper {
+#services main .services-section .service-wrapper {
   margin-top: 2rem;
   text-align: center;
   margin: 0 auto;
   width: fit-content;
   margin-bottom: 2rem;
 }
-.main-service .services-section .service-wrapper .service {
+#services main .services-section .service-wrapper .service {
   display: inline-block;
   border: 2px solid #2580e9;
   padding: 2rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
 }
-.main-service .services-section .service-wrapper .service .boton-service {
+#services main .services-section .service-wrapper .service .boton-service {
   margin-top: 1rem;
   padding: 1rem;
 }
-.main-service .services-section .service-wrapper .service .name-service {
+#services main .services-section .service-wrapper .service .name-service {
   font-size: 2rem;
 }
-.main-service .services-section .service-wrapper .service .price-service {
+#services main .services-section .service-wrapper .service .price-service {
   margin-top: 1rem;
   font-size: 2rem;
 }
