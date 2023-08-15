@@ -7,36 +7,10 @@
 @import "./partials/container";
 @import "./partials/about";
 @import "./partials/login";
+@import "./partials/register";
+@import "./partials/footer";
 @import "./partials/variables";
 
-
-
-.register {
-  padding-top: 100px;
-}
-
-.register-div .register-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.register-div h1 {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.register-div {
-  padding: 1rem;
-}
-
-footer p {
-  text-align: center;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
 
 @media screen and (min-width: 1200px) {
 }

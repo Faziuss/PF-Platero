@@ -232,22 +232,19 @@
 .register {
   padding-top: 100px;
 }
-
-.register-div .register-form {
+.register .register-div {
+  padding: 1rem;
+}
+.register .register-div h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.register .register-div .register-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-}
-
-.register-div h1 {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.register-div {
-  padding: 1rem;
 }
 
 footer p {

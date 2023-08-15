@@ -1,0 +1,20 @@
+.register {
+    padding-top: 100px;
+
+    .register-div {
+        padding: 1rem;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+          }
+
+          .register-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+          }
+      }
+  }
