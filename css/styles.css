@@ -148,36 +148,36 @@
 .main-service {
   padding-top: 100px;
 }
-.main-service .services {
+.main-service .services-section {
   padding: 1rem;
 }
-.main-service .services h1 {
+.main-service .services-section h1 {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1rem;
 }
-.main-service .services .service-wrapper {
+.main-service .services-section .service-wrapper {
   margin-top: 2rem;
   text-align: center;
   margin: 0 auto;
   width: fit-content;
   margin-bottom: 2rem;
 }
-.main-service .services .service-wrapper .service {
+.main-service .services-section .service-wrapper .service {
   display: inline-block;
   border: 2px solid #2580e9;
   padding: 2rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
 }
-.main-service .services .service-wrapper .service .boton-service {
+.main-service .services-section .service-wrapper .service .boton-service {
   margin-top: 1rem;
   padding: 1rem;
 }
-.main-service .services .service-wrapper .service .name-service {
+.main-service .services-section .service-wrapper .service .name-service {
   font-size: 2rem;
 }
-.main-service .services .service-wrapper .service .price-service {
+.main-service .services-section .service-wrapper .service .price-service {
   margin-top: 1rem;
   font-size: 2rem;
 }
