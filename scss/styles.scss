@@ -3,6 +3,7 @@
 @import "partials/navbar";
 @import "partials/phones";
 @import "partials/oferta-service";
+@import "partials/services";
 @import "partials/variables";
 
 .encabezado {
@@ -21,50 +22,6 @@
     font-size: 2.5rem;
     text-align: center;
   }
-}
-
-.main-service {
-  padding-top: 100px;
-}
-
-.services {
-  padding: 1rem;
-}
-
-.services .service-wrapper {
-  margin-top: 2rem;
-  text-align: center;
-  margin: 0 auto;
-  width: fit-content;
-  margin-bottom: 2rem;
-}
-
-.services .service-wrapper .boton-service {
-  margin-top: 1rem;
-  padding: 1rem;
-}
-
-.services .service-wrapper .name-service {
-  font-size: 2rem;
-}
-
-.services .service-wrapper .price-service {
-  margin-top: 1rem;
-  font-size: 2rem;
-}
-
-.services .service-wrapper .service {
-  display: inline-block;
-  border: 2px solid #2580e9;
-  padding: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-}
-
-.services h1 {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 1rem;
 }
 
 .about-div h1 {

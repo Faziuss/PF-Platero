@@ -1,0 +1,40 @@
+.main-service {
+  padding-top: $paddingtop100;
+  .services {
+    padding: 1rem;
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .service-wrapper {
+      margin-top: 2rem;
+      text-align: center;
+      margin: 0 auto;
+      width: fit-content;
+      margin-bottom: 2rem;
+
+      .service {
+        display: inline-block;
+        border: 2px solid #2580e9;
+        padding: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+
+        .boton-service {
+          margin-top: 1rem;
+          padding: 1rem;
+        }
+        .name-service {
+          font-size: 2rem;
+        }
+        .price-service {
+          margin-top: 1rem;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
