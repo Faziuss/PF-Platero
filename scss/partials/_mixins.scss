@@ -1,7 +1,20 @@
-@mixin auth_form{
+@mixin auth_form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+@mixin button {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  background-color: azure;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #adfdfd;
+  }
 }
